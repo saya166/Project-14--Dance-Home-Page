@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Black+Han+Sans&family=Encode+Sans&family=Francois+One&family=Kaushan+Script&family=Londrina+Outline&family=Merriweather+Sans:wght@800&family=Montserrat:wght@500&family=Orbitron:wght@500;900&family=Roboto:wght@100;300;700;900&family=Shadows+Into+Light&family=Signika+Negative:wght@500&family=Signika:wght@500;700&family=Varela&family=Volkhov:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Black+Han+Sans&family=Encode+Sans&family=Francois+One&family=Inter&family=Kaushan+Script&family=Londrina+Outline&family=Merriweather+Sans:wght@800&family=Montserrat:wght@500&family=Orbitron:wght@500;900&family=Roboto:wght@100;300;700;900&family=Shadows+Into+Light&family=Signika+Negative:wght@500&family=Signika:wght@500;700&family=Varela&family=Volkhov:wght@700&display=swap");
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #eeeeee;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+.bg-image {
+  /* The image used */
+  background-image: url("./assets/bg-img.jpg");
+  float: left;
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 46% 100%;
+  flex: 1;
+  height: 100%;
+  position: relative;
+  margin-right: -400px;
+}
+#logo {
+  position: absolute;
+  float: left;
+  height: 35px;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+.list-item {
+  font-family: "Inter";
+  float: right;
+  display: inline;
+  padding: 10px 35px;
+}
+.horizontal-line {
+  margin-left: -160px;
+}
+#h-line {
+  margin-top: 45px;
+}
+.lists {
+  margin-top: -45px;
+}
+.main1-heading {
+  margin-left: -10px;
+  margin-top: 7px;
+}
+.main1-heading h1 {
+  color: #363535;
+  letter-spacing: 3px;
+  font-size: 90px;
+  margin-left: -45px;
+  font-weight: bolder;
+}
+.main1-heading h1 span {
+  font-weight: bolder;
+  letter-spacing: 7px;
+  font-weight: bolder;
+  margin-left: -110px;
+  font-family: "Londrina Outline";
+}
+.main1-heading h3 {
+  font-weight: lighter;
+  color: #747171;
+  margin-left: 39%;
+  margin-top: -27%;
+  font-size: 26px;
+}
+.main1-icons {
+  float: right;
+  margin-top: -230px;
+  margin-right: 25px;
+}
+
+.btn {
+  margin-left: 370px;
+}
+#btn1 {
+  margin-left: -170px;
+  width: 250px;
+  padding: 14px;
+  font: 26px;
+  font-weight: bold;
+  color: white;
+  border: 0.5px solid #363535;
+  background-color: #363535;
+}
+.list {
+  margin-top: 50px;
+  margin-left: -100px;
+  font-family: "Inter";
+}
+
+.v-line {
+  margin-left: -62px;
+  border-left: 2px solid rgb(55, 55, 55);
+  height: 45%;
+
+  position: absolute;
+}
+
+.list-item2 {
+  color: #747171;
+  margin-left: -90px;
+  padding: 5px 0px 20px 2px;
+}
+.active1 {
+  color: #000000;
+  font-weight: bolder;
+}
+
+.main2-body {
+  float: right;
+  margin-right: 130px;
+  margin-top: -230px;
+  font-weight: bold;
+}
+.main2-body p {
+  margin-top: 15px;
+  font-family: "Inter";
+  color: #363535;
+  font-weight: normal;
+}
+
+.down-arrow {
+  float: right;
+  margin-top: -198px;
+  margin-right: -70px;
+}
