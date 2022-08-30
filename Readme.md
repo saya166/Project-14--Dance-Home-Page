@@ -4,11 +4,11 @@
 
 ![Dance Home Page](./Dance%20Home%20Page.png)
 
-**[Click here](https://dance-home-page-saya.netlify.app/) for the live demo of the webspage on [Netlify](https://www.netlify.com/).**
+**[Click here](https://dance-home-page-saya.netlify.app/) for the live demo of the webpage on [Netlify](https://www.netlify.com/).**
 
 ## Key Features
 
-**Dance Home Page** is The sample webpage that is Designed with HTML5 and CSS-3.
+**Dance Home Page** is The sample Responsive webpage that is Designed with HTML5 and CSS-3.
 
 - ### Font Used -
   - Inter
@@ -21,6 +21,7 @@
 - Every Content is placed at thier respective suitable places.
 - HTML file is well written with all sections, div tags including well classes with id's.
 - CSS3 added to make it more featured and colorful.
+- The webpage is Desktop, Android and Tablet Responsive.
 
 ## Completion Time
 
