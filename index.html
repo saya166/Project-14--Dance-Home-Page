@@ -4,86 +4,106 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project-14</title>
+    <title>Dance Home Page</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Main Body Part of Webpage -->
     <div class="container">
-      <div class="bg-image"></div>
-      <img id="logo" src="./assets/Logo.png" alt="" />
-      <div class="content">
-        <section aria-label="header">
-          <div class="header">
-            <nav class="navbar">
-              <div class="horizontal-line">
-                <img
-                  id="h-line"
-                  src="./assets/h-line.png"
-                  alt=""
-                  width="230px"
-                />
-              </div>
-              <div class="lists">
-                <ul>
-                  <li class="list-item">Contact</li>
-                  <li class="list-item">Portfolio</li>
-                  <li class="list-item">About Us</li>
-                  <li class="list-item">Home</li>
-                </ul>
-              </div>
-            </nav>
+      <!-- Header Section-->
+      <section aria-label="header">
+        <div class="header">
+          <!-- Logo -->
+          <div class="logo">
+            <img src="./assets/Logo.png" alt="black-logo" class="black-logo" />
           </div>
-        </section>
-        <section aria-label="main2">
-          <div class="main-1">
-            <div class="main1-heading">
-              <h1>
-                <span> Crea-</span> <br />
-                tivity.
+          <!-- navigation -->
+          <nav>
+            <ul>
+              <li class="list-item">Contact</li>
+              <li class="list-item">Portfolio</li>
+              <li class="list-item">About Us</li>
+              <li class="list-item">Home</li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <!-- Main Section -->
+      <section aria-label="main-part">
+        <main>
+          <!-- Left side of Main -->
+          <div class="left-part">
+            <img src="./assets/women.png" alt="women-img" class="women-img" />
+          </div>
+          <!-- Right side of Main -->
+          <div class="right-part">
+            <!-- Top part of right main -->
+            <div class="top-right-part ">
+              <!-- 3 Coloumns of Top-part -->
+              <!-- Col 1 -->
+              <div class="top-col-1">
+                <h1>
+                  <span> Crea-</span> <br />
+                  tivity.
+              
+                </div>
+              
+              <!-- Col 2 -->
+              <div class=" top-col-2">
                 <h3>is our <br />ingredient</h3>
-              </h1>
-            </div>
-            <div class="main1-icons">
-              <img src="/assets/social.png" height="200px" alt="" />
-            </div>
-            <div class="btn">
-              <button id="btn1">Check Our Package</button>
-            </div>
-          </div>
-          <div class="main-2">
-            <div class="list">
-              <div class="v-line"></div>
-              <ul type="circle">
-                <li class="active1 list-item2">Phototgraphy</li>
-                <li class="list-item2">Videography</li>
-                <li class="list-item2">Graphic Design</li>
-                <li class="list-item2">Illustration</li>
-                <li class="list-item2">Animation</li>
-              </ul>
-            </div>
-            <div class="main2-body">
-              <img id="appo" src="./assets/appo.png" height="30px" alt="" />
-              <p>
-                We help you to create the best graphics, <br />
-                photos, videos, animations and illustrations
-              </p>
-              <div class="ride">
-                <img
-                  id="2-people-riding"
-                  src="./assets/2-people-riding.jpg"
-                  height="185px"
-                  width="370px"
-                  alt=""
-                />
+                <div class="btn">
+                    <button type="button" id="btn1">Check Our Package</button>
+                  </div>
+                </h1>
               </div>
-
-              <div class="down-arrow">
-                <img id="arrow" src="./assets/arrow.png" alt="" height="90px" />
+              <!-- Col 3 -->
+              <div class="top-col-3">
+                <img src="/assets/social.png"  alt="social-icons" class="social-icons" />
+             </div>
+             <div class="top-col-4-invisible">
+                <img src="/assets/social.png"  alt="social-icons" class="social-icons" />
+             </div>
               </div>
+            <!-- Bottom part of right main -->
+            <div class="bottom-right-part">
+               <!-- 3 Coloumns of Bottom-part -->
+                <!-- Col 1 -->
+                <div class=" bottom-col-1">
+                    <div class="v-line"></div>
+                    <ul class="v-list">
+                        <li class="active1 list-item2">Phototgraphy</li>
+                        <li class="list-item2">Videography</li>
+                        <li class="list-item2">Graphic Design</li>
+                        <li class="list-item2">Illustration</li>
+                        <li class="list-item2">Animation</li>
+                    </ul>
+                </div>
+                <!-- Col 2 -->
+                <div class=" bottom-col-2">
+                    <img src="./assets/appo.png" class="appostrophy"  alt="appostrophy" />
+                    <p class="info">
+                      We help you to create the best graphics, <br />
+                      photos, videos, animations and illustrations
+                    </p>
+                    <div class="ride">
+                      <img
+                        class="people-riding"
+                        src="./assets/2-people-riding.jpg"
+                 
+                        alt="2-people-riding"
+                      />
+                    </div>
+                </div>
+                <!-- Col 3 -->
+                <div class=" bottom-col-3">    
+                  <img  src="./assets/arrow.png" alt="down-arrow"  class="down-arrow"/>         
+                </div>
+              
             </div>
-          </div>
-        </section>
-      </div>
+        </div>
+          
+        </main>
+      </section>
     </div>
   </body>
 </html>

@@ -1,87 +1,84 @@
 @import url("https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Black+Han+Sans&family=Encode+Sans&family=Francois+One&family=Kaushan+Script&family=Londrina+Outline&family=Merriweather+Sans:wght@800&family=Montserrat:wght@500&family=Orbitron:wght@500;900&family=Roboto:wght@100;300;700;900&family=Shadows+Into+Light&family=Signika+Negative:wght@500&family=Signika:wght@500;700&family=Varela&family=Volkhov:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Black+Han+Sans&family=Encode+Sans&family=Francois+One&family=Inter&family=Kaushan+Script&family=Londrina+Outline&family=Merriweather+Sans:wght@800&family=Montserrat:wght@500&family=Orbitron:wght@500;900&family=Roboto:wght@100;300;700;900&family=Shadows+Into+Light&family=Signika+Negative:wght@500&family=Signika:wght@500;700&family=Varela&family=Volkhov:wght@700&display=swap");
+
 body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   background-color: #eeeeee;
 }
-
-.container {
+.header {
   display: flex;
-  height: 100vh;
+  justify-content: space-between;
+  margin: 20px;
 }
-.bg-image {
-  /* The image used */
-  background-image: url("./assets/bg-img.jpg");
-  float: left;
-  /* Center and scale the image nicely */
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: 46% 100%;
-  flex: 1;
-  height: 100%;
-  position: relative;
-  margin-right: -400px;
-}
-#logo {
-  position: absolute;
-  float: left;
+.black-logo {
   height: 35px;
-  margin-left: 60px;
-  margin-top: 50px;
+  float: left;
 }
 .list-item {
   font-family: "Inter";
   float: right;
   display: inline;
-  padding: 10px 35px;
+  padding: 0px 35px;
+  cursor: pointer;
 }
-.horizontal-line {
-  margin-left: -160px;
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
-#h-line {
-  margin-top: 45px;
+.left-part {
+  flex: 1;
 }
-.lists {
-  margin-top: -45px;
+.women-img {
+  width: 85%;
+  height: 100%;
+  position: relative;
 }
-.main1-heading {
-  margin-left: -10px;
-  margin-top: 7px;
+.right-part {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
 }
-.main1-heading h1 {
+.top-right-part {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+.top-col-4-invisible {
+  display: none;
+}
+.top-col-1 h1 {
   color: #363535;
   letter-spacing: 3px;
   font-size: 90px;
-  margin-left: -45px;
+  margin-left: 45px;
   font-weight: bolder;
 }
-.main1-heading h1 span {
+.top-col-1 h1 span {
   font-weight: bolder;
   letter-spacing: 7px;
   font-weight: bolder;
-  margin-left: -110px;
+  margin-left: -90px;
   font-family: "Londrina Outline";
 }
-.main1-heading h3 {
+
+.top-col-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: -50px;
+}
+.top-col-2 h3 {
+  margin-top: 200px;
   font-weight: lighter;
   color: #747171;
-  margin-left: 39%;
-  margin-top: -27%;
   font-size: 26px;
 }
-.main1-icons {
-  float: right;
-  margin-top: -230px;
-  margin-right: 25px;
-}
-
-.btn {
-  margin-left: 370px;
-}
 #btn1 {
-  margin-left: -170px;
   width: 250px;
   padding: 14px;
   font: 26px;
@@ -89,46 +86,200 @@ body {
   color: white;
   border: 0.5px solid #363535;
   background-color: #363535;
+  cursor: pointer;
 }
-.list {
-  margin-top: 50px;
-  margin-left: -100px;
-  font-family: "Inter";
+.top-col-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 30px;
 }
-
+.social-icons {
+  height: 200px;
+  width: 40px;
+}
+.bottom-right-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-col-1 {
+  display: flex;
+  justify-content: start;
+  margin-left: -80px;
+}
 .v-line {
-  margin-left: -62px;
+  margin-left: 28px;
   border-left: 2px solid rgb(55, 55, 55);
   height: 45%;
-
   position: absolute;
 }
-
 .list-item2 {
   color: #747171;
-  margin-left: -90px;
   padding: 5px 0px 20px 2px;
 }
+
 .active1 {
   color: #000000;
   font-weight: bolder;
 }
-
-.main2-body {
-  float: right;
-  margin-right: 130px;
-  margin-top: -230px;
-  font-weight: bold;
+.bottom-col-2 {
+  display: flex;
+  flex-direction: column;
 }
-.main2-body p {
-  margin-top: 15px;
+.appostrophy {
+  height: 30px;
+  width: 30px;
+}
+.info {
+  /* padding-right: 300px; */
   font-family: "Inter";
   color: #363535;
   font-weight: normal;
 }
 
+.people-riding {
+  height: 210px;
+  width: 370px;
+}
+.bottom-col-3 {
+  justify-self: center;
+  margin-right: 70px;
+  margin-top: -20px;
+}
 .down-arrow {
-  float: right;
-  margin-top: -198px;
-  margin-right: -70px;
+  height: 100px;
+}
+@media screen and (max-width: 1050px) {
+  .top-col-1 h1 {
+    font-size: 80px;
+    /* margin-left: 45px; */
+  }
+  .top-col-1 h1 span {
+    letter-spacing: 6px;
+  }
+  .top-col-2 {
+    margin-left: 20px;
+  }
+  .top-col-2 h3 {
+    font-size: 23px;
+  }
+  #btn1 {
+    width: 180px;
+    padding: 10px;
+    font: 23px;
+  }
+  .top-col-3 {
+    margin-right: 15px;
+  }
+  .social-icons {
+    height: 180px;
+    width: 33px;
+  }
+  .bottom-col-1 {
+    display: flex;
+    justify-content: start;
+    margin-left: -70px;
+  }
+  .list-item2 {
+    padding: 5px 5px 23px 2px;
+  }
+  .appostrophy {
+    height: 25px;
+    width: 25px;
+  }
+  .info {
+    font-size: 14.5px;
+  }
+  .people-riding {
+    height: 190px;
+    width: 330px;
+  }
+  .bottom-col-3 {
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .left-part {
+    flex: 1;
+  }
+
+  .right-part {
+    flex: 1;
+  }
+  .top-right-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .top-col-2 h3 {
+    margin-top: -10px;
+  }
+  .top-col-3 {
+    display: none;
+  }
+  .top-col-4-invisible {
+    display: inline;
+    margin-left: 350px;
+    margin-top: -250px;
+  }
+
+  .bottom-right-part {
+    margin-top: 60px;
+  }
+
+  .bottom-col-3 {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .list-item {
+    padding: 0px 10px;
+  }
+  .women-img {
+    margin: auto;
+    height: 400px;
+    width: 400px;
+  }
+  .top-col-1 h1 span {
+    font-weight: bolder;
+    letter-spacing: 7px;
+    font-weight: bolder;
+    margin-left: -90px;
+    font-family: "Londrina Outline";
+  }
+
+  .top-col-2 h3 {
+    font-size: 26px;
+  }
+  #btn1 {
+    width: 250px;
+    padding: 14px;
+    font: 26px;
+  }
+  .bottom-right-part {
+    display: flex;
+    column-gap: 10px;
+  }
+  .people-riding {
+    height: 190px;
+    width: 330px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .list-item {
+    padding: 0px 5px;
+  }
+  .top-right-part,
+  .bottom-right-part {
+    margin-left: 60px;
+  }
 }
